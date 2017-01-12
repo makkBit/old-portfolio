@@ -1,584 +1,545 @@
 <!DOCTYPE html>
 <html lang="en-US">
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Mahak-Portfolio</title>
-
-      <link rel="stylesheet" type="text/css" href="style.css"/>
-
-      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-
-      <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-      <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-      <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700italic' rel='stylesheet' type='text/css'>
-
-      <script src="js/jquery.min.js"></script>
-      <script type="text/javascript" src="js/jquery.sticky.js"></script>
-      <script>
-         $(window).load(function(){
-           $("#menu").sticky({ topSpacing: 0 });
-         });
-      </script>
-
-   </head>
-
-   <body>
-
-
-      <!-- ************************
-                 HOME
-      ************************* -->
-      <div class="container-fluid banner text-center" id="banner">
-         <div class="row">
-            <div class="col-md-12">
-               <div class="tablebox">
-                  <div class="banner-text" id="bannertext">
-                     <p class="pstyle">I'm</p>
-                     <h1 class="hostyle element" id="heads"></h1><br>
-                     <ul class="social">
-                        <li><a href="https://twitter.com/makk_bit" target="_blank" ><i class="fa fa-twitter-square"></i></a></li>
-                        <li><a href="https://facebook.com/makk.bit" target="_blank" ><i class="fa fa-facebook-square"></i></a></li>
-                        <li><a href="https://github.com/makkBit" target="_blank" ><i class="fa fa-github-square"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/makkBit" target="_blank" ><i class="fa fa-linkedin-square"></i></a></li>
-                     </ul><br>
-                     <a href="#about" class="page-scroll arrow"><i class="fa fa-angle-down"></i></a> 
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-
-
-      <!-- ************************
-                NAVBAR
-      ************************* -->
-      <div class="navbar menubar" id="menu">
-         <div class="container">
-            <div class="navbar-header"> 
-               <button type="button" class="navbar-toggle menu-button" data-toggle="collapse" data-target="#myNavbar">
-               <span class="glyphicon glyphicon-align-justify"></span>
-               </button>
-               <a class="navbar-brand logo" href="#">Mahak Narayan</a> 
-            </div>
-            <div>
-               <nav class="collapse navbar-collapse" id="myNavbar" role="navigation">
-                  <ul class="nav navbar-nav navbar-right navstyle">
-                     <li><a href="#banner" class="page-scroll active">Home</a></li>
-                     <li><a href="#about" class="page-scroll">About</a></li>
-                     <li><a href="#gallery" class="page-scroll">Gallery</a></li>
-                  </ul>
-               </nav>
-            </div>
-         </div>
-      </div>
-
-
-
-      <!-- ************************
-                 ABOUT
-      ************************* -->
-      <div class="about" id="about">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12 col-sm-12 col-xs-12">
-                  <div class="alldesc">
-                     <div class="col-md-6 col-sm-6 col-xs-12 centertext">
-                        <h4>
-                        Skills</h2>
-                     </div>
-                     <div class="col-md-6 col-sm-6 col-xs-12 desc">
-                        <p class="desc">
-                           JavaScript, Node.js, Express, MongoDB, mongoose, mysql, PugJS(jade), JQuery, ReactJS, HTML, CSS, Bootstrap, PhoneGap, Photoshop, Ajax, REST API, Git, c++, python
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <br><br>
-            <div class="row">
-               <div class="col-md-12 col-sm-12 col-xs-12">
-                  <div class="alldesc">
-                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <h4>Certifications</h4>
-                     </div>
-                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <ul class="desc">
-                           <li>
-                              <a class="desc" href="https://s3.amazonaws.com/verify.edx.org/downloads/d4081b4d14244dbbb517bbbf207f1989/Certificate.pdf" target="_blank">CS50 from HarvardX</a>
-                           </li>
-                           <li>
-                              <a class="desc" href="https://www.freecodecamp.com/makkbit/front-end-certification" target="_blank">FreeCodeCamp Front End Developer</a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <br><br>
-            <div class="row">
-               <div class="col-md-12 col-sm-12 col-xs-12">
-                  <div class="alldesc">
-                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <h4>My Projects (source)</h4>
-                     </div>
-                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <ul class="desc">
-                           <li>
-                              <a class="desc" href="https://github.com/makkBit?tab=repositories" target="_blank">Full Stack and Backend projects on Github</a>
-                           </li>
-                           <li>
-                              <a class="desc" href="http://codepen.io/makkBit/" target="_blank">Front End Projects on Codepen</a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-
-
-
-
-     
-     <!-- ************************
-               GALLERY
-     ************************* -->
-      <div class="gallery" id="gallery">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12 col-sm-12 col-xs-12">
-                  <div class="alldesc">
-                     <div class="col-md-6 col-sm-6 col-xs-12 centertext">
-                        <p class="all-td end">Projects I have done</p>
-                     </div>
-                  </div>
-               </div>            
-            </div>
-   
-            <br><br>
-
-
-
-
-            <!-- ************************
-                     FULL STACK
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mahak-Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700italic' rel='stylesheet' type='text/css'>
+        <script src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.sticky.js"></script>
+        <script>
+            $(window).load(function(){
+              $("#menu").sticky({ topSpacing: 0 });
+            });
+        </script>
+    </head>
+    <body>
+        <!-- ************************
+            HOME
             ************************* -->
+        <div class="container-fluid banner text-center" id="banner">
             <div class="row">
-               <div class="col-md-12 col-sm-12 col-xs-12">
-                  <div class="alldesc">
-                     <div class="col-md-12 col-sm-12 col-xs-12 centertext">
-                        <p class="all-td">Full Stack</p>
-                     </div>
-                  </div>
-               </div>            
+                <div class="col-md-12">
+                    <div class="tablebox">
+                        <div class="banner-text" id="bannertext">
+                            <p class="pstyle">I'm</p>
+                            <h1 class="hostyle element" id="heads"></h1>
+                            <br>
+                            <ul class="social">
+                                <li><a href="https://twitter.com/makk_bit" target="_blank" ><i class="fa fa-twitter-square"></i></a></li>
+                                <li><a href="https://facebook.com/makk.bit" target="_blank" ><i class="fa fa-facebook-square"></i></a></li>
+                                <li><a href="https://github.com/makkBit" target="_blank" ><i class="fa fa-github-square"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/makkBit" target="_blank" ><i class="fa fa-linkedin-square"></i></a></li>
+                            </ul>
+                            <br>
+                            <a href="#about" class="page-scroll arrow"><i class="fa fa-angle-down"></i></a> 
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="row row-margin-bottom">
-             <div class="col-md-5 no-padding lib-item" data-category="view">
-                 <div class="lib-panel">
-                     <div class="row box-shadow">
-                         <div class="col-md-6">
-                             <img class="lib-img-show" src="images/codeVote.png">
-                         </div>
-                         <div class="col-md-6">
-                             <div class="lib-row lib-header">
-                                codeVote - Voting App
-                                <div class="lib-header-seperator"></div>
-                             </div>
-                             <div class="lib-row lib-desc">
-                                A full stack javascript voting app that enables user to create, delete, vote and share poll, view the results and other options.
-                                <br><br>
-                                Made using nodejs, expressjs, mongoose, passportjs, pugjs, chartjs
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-
-
-
-
-
-
-
-
-
-
-             <!-- ************************
-                        BACKEND
-             ************************* -->
-             <div class="row">
-                 <div class="col-md-12 col-sm-12 col-xs-12">
-                     <div class="alldesc">
-                         <div class="col-md-12 col-sm-12 col-xs-12 centertext">
-                             <br>
-                             <br>
-                             <br>
-                             <p class="all-td">Backend</p>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-
-             <div class="row row-margin-bottom">
-                 <div class="col-md-5 no-padding lib-item" data-category="view">
-                     <div class="lib-panel">
-                         <div class="row box-shadow">
-                            <div class="col-md-6">
-                                <img class="lib-img-show" src="images/imageApi.png">
+        </div>
+        <!-- ************************
+            NAVBAR
+            ************************* -->
+        <div class="navbar menubar" id="menu">
+            <div class="container">
+                <div class="navbar-header"> 
+                    <button type="button" class="navbar-toggle menu-button" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="glyphicon glyphicon-align-justify"></span>
+                    </button>
+                    <a class="navbar-brand logo" href="#">Mahak Narayan</a> 
+                </div>
+                <div>
+                    <nav class="collapse navbar-collapse" id="myNavbar" role="navigation">
+                        <ul class="nav navbar-nav navbar-right navstyle">
+                            <li><a href="#banner" class="page-scroll active">Home</a></li>
+                            <li><a href="#about" class="page-scroll">About</a></li>
+                            <li><a href="#gallery" class="page-scroll">Gallery</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- ************************
+            ABOUT
+            ************************* -->
+        <div class="about" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="alldesc">
+                            <div class="col-md-6 col-sm-6 col-xs-12 centertext">
+                                <h4>
+                                Skills</h2>
                             </div>
-                            <div class="col-md-6">
-                                <div class="lib-row lib-header">
-                                    Image Search Abstraction Layer API
-                                    <div class="lib-header-seperator"></div>
-                                </div>
-                                <div class="lib-row lib-desc">
-                                    User can get the image URLs, alt text and page urls for a set of images relating to a given search string. User can paginate through the responses by adding a ?offset=2 parameter to the URL and user can get a list of the most recently submitted search strings.
-                                    <br><br> Made using HTML, CSS, JavaScript, Node.js, Express.
-                                </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12 desc">
+                                <p class="desc">
+                                    JavaScript, Node.js, Express, MongoDB, mongoose, mysql, PugJS(jade), JQuery, ReactJS, HTML, CSS, Bootstrap, PhoneGap, Photoshop, Ajax, REST API, Git, c++, python
                             </div>
-                         </div>
-                     </div>
-                 </div>
-
-
-
-                 <div class="col-md-1"></div>
-                 <div class="col-md-5 no-padding lib-item" data-category="ui">
-                     <div class="lib-panel">
-                         <div class="row box-shadow">
-                              <div class="col-md-6">
-                                  <img class="lib-img" src="images/fileSizeApi.png">
-                              </div>
-                              <div class="col-md-6">
-                                  <div class="lib-row lib-header">
-                                      file metadata microservice
-                                      <div class="lib-header-seperator"></div>
-                                  </div>
-                                  <div class="lib-row lib-desc">
-                                      User can submit a form-data object that includes a file upload. When user submit something, user will receive the file size in bytes within the JSON response.
-                                      <br>
-                                      <br> Made using HTML, CSS, JavaScript, Node.js, Express.
-                                  </div>
-                              </div>
-                         </div>
-                     </div>
-                 </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="alldesc">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <h4>Certifications</h4>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <ul class="desc">
+                                    <li>
+                                        <a class="desc" href="https://s3.amazonaws.com/verify.edx.org/downloads/d4081b4d14244dbbb517bbbf207f1989/Certificate.pdf" target="_blank">CS50 from HarvardX</a>
+                                    </li>
+                                    <li>
+                                        <a class="desc" href="https://www.freecodecamp.com/makkbit/front-end-certification" target="_blank">FreeCodeCamp Front End Developer</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="alldesc">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <h4>My Projects (source)</h4>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <ul class="desc">
+                                    <li>
+                                        <a class="desc" href="https://github.com/makkBit?tab=repositories" target="_blank">Full Stack and Backend projects on Github</a>
+                                    </li>
+                                    <li>
+                                        <a class="desc" href="http://codepen.io/makkBit/" target="_blank">Front End Projects on Codepen</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-
-
-
-            <div class="row row-margin-bottom">
-                 <div class="col-md-5 no-padding lib-item" data-category="view">
-                     <div class="lib-panel">
-                         <div class="row box-shadow">
-                             <div class="col-md-6">
-                                 <img class="lib-img-show" src="images/urlShortener.png">
-                             </div>
-                             <div class="col-md-6">
-                                 <div class="lib-row lib-header">
-                                     URL shortener microservice
-                                     <div class="lib-header-seperator"></div>
-                                 </div>
-                                 <div class="lib-row lib-desc">
-                                     User can pass a URL as a parameter and will receive a shortened URL in the JSON response. If user pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead. When user visit that shortened URL, it will redirect user to original link.
-                                     <br><br> Made using HTML, CSS, JavaScript, Node.js, Express, MongoDB.
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-
-
-
-                 <div class="col-md-1"></div>
-                 <div class="col-md-5 no-padding lib-item" data-category="ui">
-                     <div class="lib-panel">
-                         <div class="row box-shadow">
-                             <div class="col-md-6">
-                                 <img class="lib-img" src="images/reqHeader.png">
-                             </div>
-                             <div class="col-md-6">
-                                 <div class="lib-row lib-header">
-                                     request header parser microservice
-                                     <div class="lib-header-seperator"></div>
-                                 </div>
-                                 <div class="lib-row lib-desc">
-                                     User can get the IP address, language and operating system for browser using this microservice.
-                                     <br>
-                                     <br> Made using HTML, CSS, JavaScript, Node.js, Express.
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-            </div>
-
-             <div class="row row-margin-bottom">
-                 <div class="col-md-5 no-padding lib-item" data-category="view">
-                     <div class="lib-panel">
-                         <div class="row box-shadow">
-                             <div class="col-md-6">
-                                 <img class="lib-img-show" src="images/timestamp.png">
-                             </div>
-                             <div class="col-md-6">
-                                 <div class="lib-row lib-header">
-                                     Timestamp Microservice
-                                     <div class="lib-header-seperator"></div>
-                                 </div>
-                                 <div class="lib-row lib-desc">
-                                     User can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016). If it does, it returns both the Unix timestamp and the natural language form of that date. If it does not contain a date or Unix timestamp, it returns null for those properties.
-                                     <br>
-                                     <br> Made using HTML, CSS, JavaScript, Node.js, Express.
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-                 </div>
-
-
-
-
-
-
-
-
-
-             <!-- ************************
-                      FRONT END
-             ************************* -->
-             <div class="row">
+        </div>
+        <!-- ************************
+            GALLERY
+            ************************* -->
+        <div class="gallery" id="gallery">
+        <div class="container">
+            <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                   <div class="alldesc">
-                      <div class="col-md-12 col-sm-12 col-xs-12 centertext">
-                          <br><br><br><p class="all-td">Frontend</p>
-                      </div>
-                   </div>
-                </div>            
-             </div>
-
-             <div class="row row-margin-bottom">
-             <div class="col-md-5 no-padding lib-item" data-category="view">
-                 <div class="lib-panel">
-                     <div class="row box-shadow">
-                         <div class="col-md-6">
-                             <img class="lib-img-show" src="images/ttt.png">
-                         </div>
-                         <div class="col-md-6">
-                             <div class="lib-row lib-header">
-                                 Unbeatable Tic Tac Toe
-                                 <div class="lib-header-seperator"></div>
-                             </div>
-                             <div class="lib-row lib-desc">
-                                 A Tic Tac Toe game made Unbeatable using minimax algorithm.
-                                 <br><br>
-                                 Made using HTML, CSS, JavaScript, Bootstrap, JQuery
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-
-             <div class="col-md-1"></div>
-             <div class="col-md-5 no-padding lib-item" data-category="ui">
-                 <div class="lib-panel">
-                     <div class="row box-shadow">
-                         <div class="col-md-6">
-                             <img class="lib-img" src="images/simon.png">
-                         </div>
-                         <div class="col-md-6">
-                             <div class="lib-row lib-header">
-                                 Simon Game
-                                 <div class="lib-header-seperator"></div>
-                             </div>
-                             <div class="lib-row lib-desc">
-                                 A JavaScript simon game.
-                                 <br><br>
-                                 Made using HTML, CSS, JavaScript, Bootstrap, JQuery
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-             </div>
-
-             <div class="row row-margin-bottom">
-             <div class="col-md-5 no-padding lib-item" data-category="view">
-                 <div class="lib-panel">
-                     <div class="row box-shadow">
-                         <div class="col-md-6">
-                             <img class="lib-img-show" src="images/pomo.png">
-                         </div>
-                         <div class="col-md-6">
-                             <div class="lib-row lib-header">
-                                 Pomodoro Clock
-                                 <div class="lib-header-seperator"></div>
-                             </div>
-                             <div class="lib-row lib-desc">
-                                 A JavaScript Pomodoro clock that helps to follow pomodoro technique.
-                                 <br><br>
-                                 Made using HTML, CSS, JavaScript, Bootstrap, JQuery
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-
-             <div class="col-md-1"></div>
-             <div class="col-md-5 no-padding lib-item" data-category="ui">
-                 <div class="lib-panel">
-                     <div class="row box-shadow">
-                         <div class="col-md-6">
-                             <img class="lib-img" src="images/wiki.png">
-                         </div>
-                         <div class="col-md-6">
-                             <div class="lib-row lib-header">
-                                 Wikipedia viewer
-                                 <div class="lib-header-seperator"></div>
-                             </div>
-                             <div class="lib-row lib-desc">
-                                 Wikipedia viewer gives you result for your search query. You can click a button to goto a random article. It uses mediawiki api.
-                                 <br><br>
-                                 Made using HTML, CSS, JavaScript, Bootstrap, JQuery, REST api.
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-             </div>
-
-             <div class="row row-margin-bottom">
-             <div class="col-md-5 no-padding lib-item" data-category="view">
-                 <div class="lib-panel">
-                     <div class="row box-shadow">
-                         <div class="col-md-6">
-                             <img class="lib-img-show" src="images/arcade.png">
-                         </div>
-                         <div class="col-md-6">
-                             <div class="lib-row lib-header">
-                                 Arcade Game
-                                 <div class="lib-header-seperator"></div>
-                             </div>
-                             <div class="lib-row lib-desc">
-                                 Use arrow keys on laptop/desktop to move the character and help him reach the water.
-                                 On touch device, swipe up/down/left/right/left to move the character.
-                                 <br><br>
-                                 Made using HTML, CSS, JavaScript, JQuery, Game Engine
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-
-             <div class="col-md-1"></div>
-             <div class="col-md-5 no-padding lib-item" data-category="ui">
-                 <div class="lib-panel">
-                     <div class="row box-shadow">
-                         <div class="col-md-6">
-                             <img class="lib-img" src="images/twitch.png">
-                         </div>
-                         <div class="col-md-6">
-                             <div class="lib-row lib-header">
-                                 Twitch Tv app
-                                 <div class="lib-header-seperator"></div>
-                             </div>
-                             <div class="lib-row lib-desc">
-                                 Twitch-tv app accesses the twitch-tv database and displays the current streaming user and their current stream. It also displays the users that are not online and other informations which tells account status of users.
-                                 <br><br>
-                                 Made Using HTML, CSS, JavaScript, Bootstrap, JQuery, REST APIs
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-             </div>
-
-             <div class="row row-margin-bottom">
-             <div class="col-md-5 no-padding lib-item" data-category="view">
-                 <div class="lib-panel">
-                     <div class="row box-shadow">
-                         <div class="col-md-6">
-                             <img class="lib-img-show" src="images/weather.png">
-                         </div>
-                         <div class="col-md-6">
-                             <div class="lib-row lib-header">
-                                 Weather App
-                                 <div class="lib-header-seperator"></div>
-                             </div>
-                             <div class="lib-row lib-desc">
-                                 This webapp requires your current location and based on that location, it tells you the weather of your place. You can convert temperature into Celcius or Fahrenheit notation.
-                                 <br><br>
-                                 Made using HTML, CSS, JavaScript, Bootstrap, JQuery, REST APIs
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-
-             <div class="col-md-1"></div>
-             <div class="col-md-5 no-padding lib-item" data-category="ui">
-                 <div class="lib-panel">
-                     <div class="row box-shadow">
-                         <div class="col-md-6">
-                             <img class="lib-img" src="images/calcu.png">
-                         </div>
-                         <div class="col-md-6">
-                             <div class="lib-row lib-header">
-                                 JavaScript calculator
-                                 <div class="lib-header-seperator"></div>
-                             </div>
-                             <div class="lib-row lib-desc">
-                                 You can do airthmatics and chain operations as long as you want.
-                                 Made using HTML, CSS, JavaScript, Bootstrap, JQuery.
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-             </div>
-
-             <div class="row row-margin-bottom">
-             <div class="col-md-5 no-padding lib-item" data-category="view">
-                 <div class="lib-panel">
-                     <div class="row box-shadow">
-                         <div class="col-md-6">
-                             <img class="lib-img-show" src="images/quote.png">
-                         </div>
-                         <div class="col-md-6">
-                             <div class="lib-row lib-header">
-                                 Random Quote Machine
-                                 <div class="lib-header-seperator"></div>
-                             </div>
-                             <div class="lib-row lib-desc">
-                                 You can get next random quote by clicking a button. You can also tweet out the quote if you like.
-                                 <br><br>
-                                 Made using HTML, CSS, JavaScript, Bootstrap, JQuery.
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-
-
-         </div>
-
-
-      </div>
-    </div>
-
-
-      <script src="js/bootstrap.min.js"></script> 
-      <script src="js/typed.js"></script>
-      <script type="text/javascript" src="js/jquery.waypoints.min.js"></script> 
-      <script type="text/javascript" src="js/jquery.quovolver.js"></script>
-      <script type="text/javascript" src="js/jquery.mixitup.js"></script>
-      <script type="text/javascript" src="js/three.js"></script>
-      <script type="text/javascript" src="js/one.js"></script>
-      <script type="text/javascript" src="js/two.js"></script>
-   </body>
+                    <div class="alldesc">
+                        <div class="col-md-6 col-sm-6 col-xs-12 centertext">
+                            <p class="all-td end">Projects I have done</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <!-- ************************
+                FULL STACK
+                ************************* -->
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="alldesc">
+                        <div class="col-md-12 col-sm-12 col-xs-12 centertext">
+                            <p class="all-td">Full Stack</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-margin-bottom">
+                <div class="col-md-5 no-padding lib-item" data-category="view">
+                    <a href="https://codevote.herokuapp.com/" target="_blank">
+                        <div class="lib-panel">
+                            <div class="row box-shadow">
+                                <div class="col-md-6">
+                                    <img class="lib-img-show" src="images/codeVote.png">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="lib-row lib-header">
+                                        codeVote - Voting App
+                                        <div class="lib-header-seperator"></div>
+                                    </div>
+                                    <div class="lib-row lib-desc">
+                                        A full stack javascript voting app that enables user to create, delete, vote and share poll, view the results and other options.
+                                        <br><br>
+                                        Made using nodejs, expressjs, mongoose, passportjs, pugjs, chartjs
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- ************************
+                    BACKEND
+                    ************************* -->
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="alldesc">
+                            <div class="col-md-12 col-sm-12 col-xs-12 centertext">
+                                <br>
+                                <br>
+                                <br>
+                                <p class="all-td">Backend</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-margin-bottom">
+                    <div class="col-md-5 no-padding lib-item" data-category="view">
+                        <a href="https://image-search-api-makkbit.herokuapp.com/" target="_blank">
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-6">
+                                        <img class="lib-img-show" src="images/imageApi.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="lib-row lib-header">
+                                            Image Search Abstraction Layer API
+                                            <div class="lib-header-seperator"></div>
+                                        </div>
+                                        <div class="lib-row lib-desc">
+                                            User can get the image URLs, alt text and page urls for a set of images relating to a given search string. User can paginate through the responses by adding a ?offset=2 parameter to the URL and user can get a list of the most recently submitted search strings.
+                                            <br><br> Made using HTML, CSS, JavaScript, Node.js, Express.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 no-padding lib-item" data-category="ui">
+                        <a href="https://file-size-api-makkbit.herokuapp.com/" target="_blank">
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-6">
+                                        <img class="lib-img" src="images/fileSizeApi.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="lib-row lib-header">
+                                            file metadata microservice
+                                            <div class="lib-header-seperator"></div>
+                                        </div>
+                                        <div class="lib-row lib-desc">
+                                            User can submit a form-data object that includes a file upload. When user submit something, user will receive the file size in bytes within the JSON response.
+                                            <br>
+                                            <br> Made using HTML, CSS, JavaScript, Node.js, Express.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row row-margin-bottom">
+                    <div class="col-md-5 no-padding lib-item" data-category="view">
+                        <a href="http://shorten-this-url.herokuapp.com/" target="_blank">
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-6">
+                                        <img class="lib-img-show" src="images/urlShortener.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="lib-row lib-header">
+                                            URL shortener microservice
+                                            <div class="lib-header-seperator"></div>
+                                        </div>
+                                        <div class="lib-row lib-desc">
+                                            User can pass a URL as a parameter and will receive a shortened URL in the JSON response. If user pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead. When user visit that shortened URL, it will redirect user to original link.
+                                            <br><br> Made using HTML, CSS, JavaScript, Node.js, Express, MongoDB.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 no-padding lib-item" data-category="ui">
+                        <a href="https://request-header-parser-makkbit.herokuapp.com/" target="_blank">
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-6">
+                                        <img class="lib-img" src="images/reqHeader.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="lib-row lib-header">
+                                            request header parser microservice
+                                            <div class="lib-header-seperator"></div>
+                                        </div>
+                                        <div class="lib-row lib-desc">
+                                            User can get the IP address, language and operating system for browser using this microservice.
+                                            <br>
+                                            <br> Made using HTML, CSS, JavaScript, Node.js, Express.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="row row-margin-bottom">
+                    <div class="col-md-5 no-padding lib-item" data-category="view">
+                        <a href="https://timestamp-microservice-makkbit.herokuapp.com/" target="_blank">
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-6">
+                                        <img class="lib-img-show" src="images/timestamp.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="lib-row lib-header">
+                                            Timestamp Microservice
+                                            <div class="lib-header-seperator"></div>
+                                        </div>
+                                        <div class="lib-row lib-desc">
+                                            User can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016). If it does, it returns both the Unix timestamp and the natural language form of that date. If it does not contain a date or Unix timestamp, it returns null for those properties.
+                                            <br>
+                                            <br> Made using HTML, CSS, JavaScript, Node.js, Express.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- ************************
+                    FRONT END
+                    ************************* -->
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="alldesc">
+                            <div class="col-md-12 col-sm-12 col-xs-12 centertext">
+                                <br><br><br>
+                                <p class="all-td">Frontend</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-margin-bottom">
+                    <div class="col-md-5 no-padding lib-item" data-category="view">
+                        <a href="http://codepen.io/makkBit/full/JXgdEo/" target="_blank">
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-6">
+                                        <img class="lib-img-show" src="images/ttt.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="lib-row lib-header">
+                                            Unbeatable Tic Tac Toe
+                                            <div class="lib-header-seperator"></div>
+                                        </div>
+                                        <div class="lib-row lib-desc">
+                                            A Tic Tac Toe game made Unbeatable using minimax algorithm.
+                                            <br><br>
+                                            Made using HTML, CSS, JavaScript, Bootstrap, JQuery
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 no-padding lib-item" data-category="ui">
+                        <a href="http://codepen.io/makkBit/full/dOPmVE/" target="_blank">
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-6">
+                                        <img class="lib-img" src="images/simon.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="lib-row lib-header">
+                                            Simon Game
+                                            <div class="lib-header-seperator"></div>
+                                        </div>
+                                        <div class="lib-row lib-desc">
+                                            A JavaScript simon game.
+                                            <br><br>
+                                            Made using HTML, CSS, JavaScript, Bootstrap, JQuery
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row row-margin-bottom">
+                    <div class="col-md-5 no-padding lib-item" data-category="view">
+                        <a href="http://codepen.io/makkBit/full/qNQXRv/" target="_blank">
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-6">
+                                        <img class="lib-img-show" src="images/pomo.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="lib-row lib-header">
+                                            Pomodoro Clock
+                                            <div class="lib-header-seperator"></div>
+                                        </div>
+                                        <div class="lib-row lib-desc">
+                                            A JavaScript Pomodoro clock that helps to follow pomodoro technique.
+                                            <br><br>
+                                            Made using HTML, CSS, JavaScript, Bootstrap, JQuery
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 no-padding lib-item" data-category="ui">
+                        <a href="http://codepen.io/makkBit/full/WwXxYP/" target="_blank">
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-6">
+                                        <img class="lib-img" src="images/wiki.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="lib-row lib-header">
+                                            Wikipedia viewer
+                                            <div class="lib-header-seperator"></div>
+                                        </div>
+                                        <div class="lib-row lib-desc">
+                                            Wikipedia viewer gives you result for your search query. You can click a button to goto a random article. It uses mediawiki api.
+                                            <br><br>
+                                            Made using HTML, CSS, JavaScript, Bootstrap, JQuery, REST api.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row row-margin-bottom">
+                    <div class="col-md-5 no-padding lib-item" data-category="view">
+                        <a href="http://codepen.io/makkBit/full/dXdbmr/" target="_blank">
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-6">
+                                        <img class="lib-img-show" src="images/arcade.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="lib-row lib-header">
+                                            Arcade Game
+                                            <div class="lib-header-seperator"></div>
+                                        </div>
+                                        <div class="lib-row lib-desc">
+                                            Use arrow keys on laptop/desktop to move the character and help him reach the water.
+                                            On touch device, swipe up/down/left/right/left to move the character.
+                                            <br><br>
+                                            Made using HTML, CSS, JavaScript, JQuery, Game Engine
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 no-padding lib-item" data-category="ui">
+                        <a href="http://codepen.io/makkBit/full/EKJXBr/" href="_blank">
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-6">
+                                        <img class="lib-img" src="images/twitch.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="lib-row lib-header">
+                                            Twitch Tv app
+                                            <div class="lib-header-seperator"></div>
+                                        </div>
+                                        <div class="lib-row lib-desc">
+                                            Twitch-tv app accesses the twitch-tv database and displays the current streaming user and their current stream. It also displays the users that are not online and other informations which tells account status of users.
+                                            <br><br>
+                                            Made Using HTML, CSS, JavaScript, Bootstrap, JQuery, REST APIs
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row row-margin-bottom">
+                    <div class="col-md-5 no-padding lib-item" data-category="view">
+                        <a href="http://codepen.io/makkBit/full/eZEYjB/" target="_blank">
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-6">
+                                        <img class="lib-img-show" src="images/weather.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="lib-row lib-header">
+                                            Weather App
+                                            <div class="lib-header-seperator"></div>
+                                        </div>
+                                        <div class="lib-row lib-desc">
+                                            This webapp requires your current location and based on that location, it tells you the weather of your place. You can convert temperature into Celcius or Fahrenheit notation.
+                                            <br><br>
+                                            Made using HTML, CSS, JavaScript, Bootstrap, JQuery, REST APIs
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 no-padding lib-item" data-category="ui">
+                        <a href="http://codepen.io/makkBit/full/jqpjRq/" target="_blank">
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-6">
+                                        <img class="lib-img" src="images/calcu.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="lib-row lib-header">
+                                            JavaScript calculator
+                                            <div class="lib-header-seperator"></div>
+                                        </div>
+                                        <div class="lib-row lib-desc">
+                                            You can do airthmatics and chain operations as long as you want.
+                                            Made using HTML, CSS, JavaScript, Bootstrap, JQuery.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row row-margin-bottom">
+                    <div class="col-md-5 no-padding lib-item" data-category="view">
+                        <a href="http://codepen.io/makkBit/pen/dMWvbE" target="_blank">
+                            <div class="lib-panel">
+                                <div class="row box-shadow">
+                                    <div class="col-md-6">
+                                        <img class="lib-img-show" src="images/quote.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="lib-row lib-header">
+                                            Random Quote Machine
+                                            <div class="lib-header-seperator"></div>
+                                        </div>
+                                        <div class="lib-row lib-desc">
+                                            You can get next random quote by clicking a button. You can also tweet out the quote if you like.
+                                            <br><br>
+                                            Made using HTML, CSS, JavaScript, Bootstrap, JQuery.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.min.js"></script> 
+        <script src="js/typed.js"></script>
+        <script type="text/javascript" src="js/jquery.waypoints.min.js"></script> 
+        <script type="text/javascript" src="js/jquery.quovolver.js"></script>
+        <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+        <script type="text/javascript" src="js/three.js"></script>
+        <script type="text/javascript" src="js/one.js"></script>
+        <script type="text/javascript" src="js/two.js"></script>
+    </body>
 </html>
