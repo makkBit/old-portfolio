@@ -167,19 +167,18 @@
 
 .alldesc h4
 {
-    color: grey;
+    color: #3B3738;
     font-family: "Source Sans Pro",sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 0px !important;
     font-weight: 600;
 	letter-spacing: 1px;
-	text-transform: uppercase;
 }
 
 .desc
 {
 	 font-family: "Source Sans Pro",sans-serif;
-	 font-size: 25px;
+	 font-size: 20px;
 	 font-weight: 400;
 	 color: #404040;
 }
@@ -188,35 +187,7 @@
 	text-decoration: none !important;
 }
 
-.sorting
-{
-	background-color: rgba(0, 0, 0, 0.06);
-	margin-top: 60px;
-	color: #3ec9c3;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
-	font-size: 15px;
-	margin-left: 15px;
-}
 
-.sorting .active
-{
-	background-color: #3EC9C3;
-	color: #fff;
-}
-.filimg
-{
-	padding: 10px 15px;
-	cursor:pointer;
-}
-.galleryimg
-{
-	margin-top: 30px;
-}
-.mix
-{
-	padding: 0px;
-}
 
 h2{
 	font-weight: bold !important;
@@ -262,8 +233,15 @@ h2{
 }
 
 
-
-
+.tagline h4{
+	color:black;
+	font-family: "Source Sans Pro",sans-serif;
+    font-size: 20px;
+    margin-top: 0px !important;
+    font-weight: 600;
+	word-spacing: 10px;
+	text-transform: uppercase;
+}
 
 
 
@@ -342,4 +320,10 @@ h2{
 .gallery a{
 	text-decoration: none !important;
 	color: #2B2B2B !important;
+}
+
+
+
+.copy{
+	font-family: 'Raleway', sans-serif;
 }
