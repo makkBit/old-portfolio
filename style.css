@@ -37,6 +37,7 @@
     display: inline-block;
     margin: 30px -2px 0px 0px;
 }
+
 #heads:before, #heads:after {
 	background: rgba(224, 224, 224, 0.75);
 	content: '';
@@ -73,7 +74,7 @@
 }
 .hostyle
 {
-	font-family: 'Pacifico', cursive;
+	font-family: 'Raleway', sans-serif;
 	color: #2B2B2B;
 }
 .pstyle
@@ -109,7 +110,7 @@
 	padding: 24px 15px !important;
 	display: inline-block;
 	height: auto !important;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Raleway', sans-serif;
 	color: #3B3738;
 	font-size: 34px !important;	
 }
